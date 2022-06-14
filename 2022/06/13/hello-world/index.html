@@ -165,13 +165,13 @@ function loadGitalk () {
   function initGitalk () {
     var gitalk = new Gitalk(Object.assign({
       clientID: '3c12e4c749e66fde6514',
-      clientSecret: '13087c3b19dd77b23b3921e0d00d870ccf8feb27',
+      clientSecret: 'a21bd643a7c432b346cd1a84d0b53c195a3052ec',
       repo: 'blog',
       owner: '21418xiaozhen',
-      admin: ['小圳'],
+      admin: ['21418xiaozhen'],
       id: '33d4c64ac7a063680a7e725b9cdd3c7c',
       updateCountCallback: commentCount
-    },10))
+    },null))
 
     gitalk.render('gitalk-container')
   }
